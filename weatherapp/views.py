@@ -30,8 +30,10 @@ def index(request):
             message= err_msg
             message_class ='is-danger'
         else:
-            message = 'City added sucessfully!'
-            message_class ='is-sucess'
+            
+            message_class ='is-success'
+            message = 'City added successfully!'
+            
     
     
     
